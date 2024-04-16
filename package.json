@@ -1,0 +1,15 @@
+{
+  "name": "hello-world-lumen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_config.js",
+  "scripts": {
+    "build": "deno task lume",
+    "start": "npx -y serve _site/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "deno-bin": "^1.37.2"
+  }
+}
